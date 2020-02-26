@@ -1,8 +1,6 @@
 FROM python:3
 
-VOLUME ["/my-vol"]
-
-WORKDIR my-vol
+WORKDIR my-vol2
 
 copy test.py .
 
